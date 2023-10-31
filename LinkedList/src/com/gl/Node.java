@@ -1,0 +1,18 @@
+package com.gl;
+
+public class Node {
+  public int data;
+  public Node next;
+  public Node prev;
+  
+  
+	  public Node(int data) {
+	   this.data = data;
+	  // this.next = next; 
+	  // this.prev = prev;
+	    }
+	 
+public void displayNode() {
+	  System.out.println(" { "+ data  +" } ");
+  }
+} 
